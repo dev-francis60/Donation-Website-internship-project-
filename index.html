@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=. initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title> 
+
+</head>
+<body>
+ <div class="container">
+    <!-- topbar -->
+    <div class="topbar">
+        <div class="topbardiv">
+           <div class="logodiv">
+               <img class="logo" src="./logo/logo UG.svg" alt="logo">
+        </div>
+        <div class="box">
+           <div class="button1">
+            <button><a target="_blank" href="./fundraising/index1.html">GIVE TO UG</a></button>
+            </div>
+        <div class="search">
+            <input type="text" id="search" placeholder="search here">
+            <label for="search"> <i class="fas fa-search"></i></label>
+        </div>
+    </div>
+      </div>
+    </div>
+    </div>
+
+     <!-- sidebar -->
+
+     <div class="sidebar">
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="fas fa-th-large"></i>
+                    <div >Dashboard</div>
+                </a>
+            </li>
+            <li>
+                <a href="./fundraising/index1.html">
+                    <i class="fas fa-chart-line"></i>
+                    <div >Fundraising</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-calendar"></i>
+                    <div >Events</div>
+                </a>
+            </li>
+            <li>
+                <a href="./campaign/index.html">
+                    <i class="fa fa-chart-pie"></i>
+                    <div >Campaign</div>
+                </a>
+            </li>
+            <!-- <li>
+                <a href="#">
+                    <i class="fa fa-file"></i>
+                    <div >Documents</div>
+                </a>
+            </li> -->
+            
+        </ul>  
+    </div>
+       
+    <!-- main -->
+    <div class="main">
+        <div class="cards">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-name"><p>Total Donation</p></div>
+                    <div class="number"><h2>₵82.125</h2></div>
+                    <div class="card-name"><p>+3.21 Than last month</p></div>
+                </div>
+                <div class="icon-box">
+                    <i class="fas fa-file"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-name"><p>Donation Today</p></div>
+                    <div class="number"><h2>₵8.125</h2></div>
+                    <div class="card-name"><p><span class="blue">+2.34</span> Than yesterday</p></div>
+                </div>
+                <div class="icon-box">
+                    <i class="fas fa-file"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-name"><p>Total Donor</p></div>
+                    <div class="number"><h2>₵10,125</h2></div>
+                    <div class="card-name"><p><span class="red">-1.82</span> Than last month</p></div>
+                </div>
+                <div class="icon-box">
+                    <i class="fas fa-file"></i>
+                </div>
+            </div>
+        </div>
+
+         
+          <!-- charts -->
+
+          <div class="charts">
+            <div class="chart">
+                <h2 class="linechart">Donation Analytics</h2>
+               <div id="line"></div>
+            </div>
+            <div class="chart">
+                <div class="donut-chart">
+                <div id="donut"></div>
+                <h2 class="donut">Donors by Year</h2>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+ </div>
+ <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+ <script src="./script.js"></script>
+</body>  
+</html>
